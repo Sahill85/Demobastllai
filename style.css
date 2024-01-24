@@ -4,57 +4,13 @@
     box-sizing: border-box;
 }
 
-
-/* .navbar{
-    display: flex;
-}
-
-.nav{
-
-    background-color: white;
-    width: 100vw;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 10px 9px 24px -8px rgba(0,0,0,0.54);
-    
-}
-.logo{
-    height: 100px;
-    width: auto;
-    background-color: aliceblue;
-    border-radius: 0px 0px 70px 0px;
-}
-.logo img{
-    height: 90px;
-    width: 250px;
-    padding-left: 10px;
-}
-
-.navbarui {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: baseline;
-    padding: 0px 5px;
-}
-
-.navbarui a{
-    padding: 10px;
-    margin: 0px 23px;
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    font-size: 20px;
-} */
-
+/* navbar starts here  */
 nav {
     height: 70px;
     width: 100%;
     display: flex;
     position: relative;
     background-color: #fff;
-    /* align-items: center; */
     justify-content: space-between;
 }
 
@@ -74,13 +30,13 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 nav ul li a {
     color: #000000;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'MuseoModerno', cursive;
     position: relative;
     font-weight: bold;
@@ -92,7 +48,8 @@ nav ul li a:hover {
     color: #fff;
     border-radius: 0px 0px 15px 15px;
 }
-#sidemenu{
+
+#sidemenu {
     margin-right: 30px;
 }
 
@@ -155,7 +112,7 @@ nav .fa-solid {
 
 .format {
     display: block;
-    text-align: center;
+    /* text-align: center; */
     height: 500px;
     width: 550px;
     background-color: white;
@@ -166,11 +123,9 @@ nav .fa-solid {
 
 #ready {
     font-size: 40px;
-}
-
-#dream {
-    font-size: 40px;
-    font-weight: 800;
+    text-transform: capitalize;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 .lines {
@@ -192,10 +147,12 @@ nav .fa-solid {
     margin-top: 20px;
 
 }
-.mainbtn{
+
+.mainbtn {
     display: flex;
     justify-content: center;
 }
+
 .mainbtn1 {
     background-color: black;
     color: white;
@@ -210,12 +167,12 @@ select {
 .mainbtn1 {
     background-color: black;
     color: white;
-    width: 120px;
-    height: 40px;
+    width: 170px;
+    height: 50px;
     border-radius: 30px;
     padding: 2px;
     font-weight: bold;
-    font-size: large;
+    font-size: 25px;
 }
 
 .choosemain {
@@ -245,7 +202,7 @@ select {
     margin: 10px 0;
     background-color: aliceblue;
     border-radius: 10px;
-    border: 1px solid aqua;
+    box-shadow: 0px 8px 70px -8px rgba(0, 0, 0, 0.54);
 
     p {
         font-size: 30px;
@@ -273,104 +230,128 @@ select {
 
 
 /*================== footer ===================*/
-footer{
+footer {
     background-color: #fff;
     width: 100%;
     box-shadow: 0px 8px 70px -8px rgba(0, 0, 0, 0.54);
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-.detail{
+
+.detail {
     padding: 45px 0px;
     padding-left: 80px;
     width: 30%;
 }
+
 /* .detail p{
     font-size: 20px;
     font-weight: 700;
     margin: 10px 0px;
 } */
-.detail img{
+.detail img {
     height: 70px;
-     width:160px;
+    width: 160px;
 }
-.links{
+
+.links {
     padding: 45px 0px;
     width: 20%;
 }
-.links h2{
+
+.links h2 {
     margin-bottom: 25px;
 }
-.links>ul>li{
+
+.links>ul>li {
     list-style: none;
     margin: 5px 0;
 }
-.links>ul>li>a{
+
+.links>ul>li>a {
     text-decoration: none;
     color: #000000;
 }
-.links>ul>li>a i{
+
+.links>ul>li>a i {
     padding-right: 10px;
 }
-.links>ul>li>a:hover{
+
+.links>ul>li>a:hover {
     color: rgb(49, 122, 231);
 }
-.contact{
+
+.contact {
     padding: 45px 80px;
     width: 45%;
 }
-.contact h2{
+
+.contact h2 {
     margin-bottom: 25px;
 }
-.contact p{
+
+.contact p {
     margin: 10px 0;
 }
-.contact p a{
+
+.contact p a {
     text-decoration: none;
     color: #000000;
 }
-.contact p i{
+
+.contact p i {
     margin-right: 10px;
 }
-.social{
+
+.social {
     margin: 20px 2px;
 }
-.social a{
+
+.social a {
     color: #000000;
     text-decoration: none;
     font-size: 30px;
     padding: 0px 6px;
 }
-.social a i{
+
+.social a i {
     transition: transform 0.7s;
 }
-.social a:hover i{
+
+.social a:hover i {
     transform: scale(1.1);
-    
+
 }
 
-.social a:hover #fb{
+.social a:hover #fb {
     color: blue;
 }
-.social a:hover #fac{
+
+.social a:hover #fac {
     color: blue;
 }
-.social a:hover #twi{
+
+.social a:hover #twi {
     color: #1DA1F2;
 }
-.social a:hover #lin{
+
+.social a:hover #lin {
     color: #0A66C2;
 }
-.social a:hover #ins{
+
+.social a:hover #ins {
     color: #d62976;
 }
-.social a:hover #you{
+
+.social a:hover #you {
     color: red;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
@@ -380,16 +361,19 @@ footer{
     border-top: 1px rgb(90, 89, 89) solid;
     margin: 0 30px;
 }
-.copyright div{
+
+.copyright div {
     background-color: #fff;
     border-radius: 50%;
     transition: transform 0.5s;
 }
-.copyright div>a i{
+
+.copyright div>a i {
     padding: 7px;
 }
-.copyright div:hover{
-background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, rgb(35, 216, 253) 100%);
+
+.copyright div:hover {
+    background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, rgb(35, 216, 253) 100%);
     transform: translateY(-8px);
 }
 
@@ -403,13 +387,16 @@ background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, 
         margin: 13px;
         margin-right: 35px;
     }
+
     nav {
         height: 50px;
         width: 100%;
     }
-    #sidemenu{
+
+    #sidemenu {
         margin-right: 0px;
     }
+
     .logo {
         height: 80px;
         width: 180px;
@@ -454,7 +441,7 @@ background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, 
     }
 
     .content {
-        height: auto;
+        height: 1000px;
         width: 100%;
         /* update */
         background: url("Home.png");
@@ -466,13 +453,13 @@ background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, 
         display: block;
         align-content: center;
         justify-items: center;
-        height: 50%;
+        height: 350px;
         width: 100%;
         margin: auto;
     }
 
     .section2 {
-        height: 50%;
+        height: 630px;
         width: 100%;
         display: grid;
         align-content: center;
@@ -517,8 +504,9 @@ background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, 
     }
 
     #ready {
-        margin-top: 15px;
+        margin-top: 20px;
         font-size: 16px;
+        margin-left: 0px;
     }
 
     #dream {
@@ -539,34 +527,64 @@ background: linear-gradient(357deg, rgb(44, 34, 235) 22%, rgb(45, 45, 230) 33%, 
 
     .mainbtn1 {
         margin-left: 0px;
+        margin-top: 35px;
+        height: 35px;
+        width: 110px;
+        font-size: 15px;
     }
 
     .mainbtn {
         display: flex;
         justify-content: center;
     }
-    .footer{
+
+    .footer {
         display: block;
     }
-    .detail{
+
+    .detail {
         width: 100%;
         padding: 40px;
         padding-left: 60px;
     }
-    .contact{
+
+    .contact {
         width: 100%;
         padding: 40px 60px;
     }
-    .links{
+
+    .links {
         width: 100%;
         padding: 0px 60px;
     }
-    .copyright>p{
+
+    .copyright>p {
         font-size: 10px;
         text-align: center;
     }
+
     #services {
         padding: 30px 20px;
+    }
+
+    .car-varient {
+        height: 290px;
+        width: 370px;
+        padding: 25px;
+        text-align: center;
+        gap: 10px;
+        margin: 12px auto;
+
+        p {
+            font-size: 16px;
+        }
+
+    }
+
+    .car-container {
+        top: 12%;
+        width: 100%;
+        display: block;
     }
 
 
